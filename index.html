@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asisten Kultum Jowo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Naskh+Arabic:wght@400..700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://aistudiocdn.com/react@^19.2.0",
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+          "react/": "https://aistudiocdn.com/react@^19.2.0/",
+          "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+          "marked": "https://aistudiocdn.com/marked@^14.0.0"
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .font-serif-javanese {
+        font-family: 'Lora', serif;
+      }
+      .arabic-text {
+        font-family: 'Noto Naskh Arabic', serif;
+        direction: rtl;
+        text-align: right;
+        display: block;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #93c5fd; /* light blue */
+      }
+      .prose-custom {
+        line-height: 1.75;
+      }
+      .prose-custom h1, .prose-custom h2, .prose-custom h3 {
+        color: #6ee7b7; /* teal-300 */
+        margin-bottom: 0.5em;
+        margin-top: 1.25em;
+      }
+      .prose-custom ul {
+        list-style-position: inside;
+        padding-left: 1rem;
+      }
+      .prose-custom li {
+        margin-bottom: 0.25rem;
+      }
+      .prose-custom p {
+        margin-bottom: 1rem;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .animate-fade-in {
+          animation: fadeIn 0.5s ease-out forwards;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

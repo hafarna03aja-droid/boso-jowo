@@ -1,0 +1,7 @@
+{
+  "name": "Asisten Kultum Jowo",
+  "description": "An AI-powered application to help you write, listen to, and practice delivering sermons (kultum) in the Javanese language. Generate sermon drafts, hear them spoken with Text-to-Speech, and engage in a real-time conversational practice session to perfect your delivery.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
