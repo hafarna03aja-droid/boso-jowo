@@ -6,6 +6,13 @@
 
 Aplikasi AI untuk membantu membuat kultum (kuliah tujuh menit) dan ceramah dalam bahasa Jawa dengan sentuhan modern.
 
+## 🚀 **Live Demo**
+**🌐 Production URL:** https://boso-jowo.vercel.app
+
+**Alternative URLs:**
+- https://boso-jowo-hafarnas-projects.vercel.app
+- https://boso-jowo-hafarna03aja-droid-hafarnas-projects.vercel.app
+
 View your app in AI Studio: https://ai.studio/apps/drive/1GUyUOVAps41Ng02cKgtq--8EIKb6ZiMx
 
 ## Fitur
